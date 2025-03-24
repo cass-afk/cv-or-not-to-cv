@@ -25,3 +25,7 @@ while True:
 cap.release()
 cv2.destroyAllWindows()
 
+"""While they are fast, you pay the price via:
+a.False-positive detections
+b.Less accuracy (as opposed to HOG + Linear SVM and deep learning-based face detectors)
+c.Manual parameter tuning"""
